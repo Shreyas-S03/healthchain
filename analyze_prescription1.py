@@ -9,7 +9,7 @@ from google.genai import types
 import io
 
 # Gemini API Configuration
-client = genai.Client(api_key="AIzaSyD6C1dYpg-k_ZLiaPuonL9OrCkr5UKjsfw")  # Replace with your API key
+client = genai.Client(api_key="******")  # Replace with your API key
 
 def extract_text_from_image(image_path):
     """Extracts drug names from an image using Gemini API."""
